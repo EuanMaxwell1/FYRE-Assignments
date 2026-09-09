@@ -9,7 +9,7 @@ import time #module with time
 led=machine.Pin(0, machine.Pin.OUT)
 
 #Infinite loop
-while True
+while True:
   led.value(1) #turn on LED
   time.sleep(0.25) #0.25 second delay
   led.value(0) #turn off the LED
